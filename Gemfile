@@ -6,4 +6,3 @@ gem "vienna"
 gem 'twitter', github: 'sferik/twitter'
 gem 'em-websocket'
 gem 'rack'
-gem 'thin'
