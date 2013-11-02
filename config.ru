@@ -1,10 +1,8 @@
 require 'em-websocket'
 require 'twitter'
-#require 'vienna'
 require 'sinatra'
 require './twitter_config.rb'
 
-#run Vienna::Application.new('client/build')
 require './app'
 run Sinatra::Application
 
