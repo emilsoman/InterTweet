@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-#gem "sinatra"
+gem "sinatra"
 gem "vienna"
 gem 'twitter', github: 'sferik/twitter'
 gem 'em-websocket'

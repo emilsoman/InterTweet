@@ -1,9 +1,12 @@
 require 'em-websocket'
 require 'twitter'
-require 'vienna'
+#require 'vienna'
+require 'sinatra'
 require './twitter_config.rb'
 
-run Vienna::Application.new('client/build')
+#run Vienna::Application.new('client/build')
+require './app'
+run Sinatra::Application
 
 websocket_thread = Thread.new do
   EM.run do

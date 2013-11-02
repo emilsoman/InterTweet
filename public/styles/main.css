@@ -1,0 +1,13 @@
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+.link {
+  stroke: #000;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
