@@ -2,7 +2,7 @@ var ws = null ;
 
 $(document).ready(function () {
   restart();
-  ws = new WebSocket("ws://intertweet.herokuapp.com:3000");
+  ws = new WebSocket("ws://localhost:3000");
   ws.onmessage = function(evt) {
     var json = JSON.parse(evt.data);
     var fromUser = json.user;
