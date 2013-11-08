@@ -31,3 +31,17 @@ Ruby 2.0
 4. Update `twitter_config.rb` with configs
 5. `bundle exec rackup`
 6. Point your browser at `localhost:9292`
+
+### Using Foreman
+
+It's easier if you use foreman to manage the server.
+
+Create a `.env` file in the project root with the following content:
+
+    CONSUMER_KEY=<YOUR_CONSUMER_KEY>
+    CONSUMER_SECRET=<YOUR_CONSUMER_SECRET>
+    OAUTH_TOKEN=<YOUR_OAUTH_TOKEN>
+    OAUTH_TOKEN_SECRET=<YOUR_OAUTH_TOKEN_SECRET>
+
+Run `foreman start` to load the environment variables specified in `.env` above and start running the server.
+Point your browser at `localhost:9292`.
